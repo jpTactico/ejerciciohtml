@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <span>Ejercicio HTML</span>
+        <span>Ejercicio Formulario HTML</span>
         <nav>
             <ul>
                 <li><a href="/ejerciciohtml/">Inicio</a></li>
@@ -16,6 +16,62 @@
                 <li><a href="galeria.html">Galeria</a></li>
             </ul>
         </nav>
-      </header>  
+      </header> 
+      <h1>Formulario de contacto</h1>
+
+      <form action="https://www.utpl.edu.ec/" method="get">
+    
+        <div class="form-group">
+          <label for="titulo">Título</label>
+          <input type="text" class="form-control" id="titulo" name="titulo" required>
+        </div>
+    
+        <div class="form-group">
+          <label for="nombres">Nombres</label>
+          <input type="text" class="form-control" id="nombres" name="nombres" required autofocus>
+        </div>
+    
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+    
+        <div class="form-group">
+          <label for="web">Web</label>
+          <input type="url" class="form-control" id="web" name="web" placeholder="URL de tu página web personal">
+        </div>
+    
+        <div class="form-group">
+          <label for="fecha_registro">Fecha de registro</label>
+          <input type="date" class="form-control" id="fecha_registro" name="fecha_registro">
+        </div>
+    
+        <div class="form-group">
+          <label for="hora">Hora</label>
+          <input type="time" class="form-control" id="hora" name="hora">
+        </div>
+    
+        <div class="form-group">
+          <label for="edad">Edad</label>
+          <input type="number" class="form-control" id="edad" name="edad" min="-18" max="65">
+        </div>
+    
+        <div class="form-group">
+          <label for="contacto">Contacto</label>
+          <input type="tel" class="form-control" id="contacto" name="contacto">
+        </div>
+    
+        <div class="form-group">
+          <label for="color_favorito">Color favorito</label>
+          <input type="color" class="form-control" id="color_favorito" name="color_favorito">
+        </div>
+    
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    
+      </form>
+    
+      <footer>
+        Elaborado por James
+    </footer>
 </body>
 </html>
